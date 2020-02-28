@@ -9,6 +9,7 @@ import (
 )
 
 func main() {
+	// test
 	ch := make(chan int)
 	go func() {
 		detail, _ := STContextMgr().MakeLoopContext("main watcher")
